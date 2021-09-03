@@ -5,6 +5,7 @@
           <Page title=" Cars overview list">
             <headerContent>              
                 <Button icon="sap-icon://action" press="onPress"></Button>
+                <Button icon="sap-icon://action" press="onPress"></Button>
             </headerContent>
             <content>
             <SearchField id="idSF" search="onSearch"></SearchField>  
