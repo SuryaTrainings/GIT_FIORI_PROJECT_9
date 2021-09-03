@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <script id="sap-ui-bootstrap"
+            src="https://sapui5.hana.ondemand.com/resources/sap-ui-core.js"
+            data-sap-ui-theme = "sap_fiori_3_dark"
+            data-sap-ui-libs  = "sap.m"
+            data-sap-ui-resourceRoots = '{"home" : "./"}'
+            data-sap-ui-bindingSyntax="complex"
+            >
+        </script>
+        <script>
+            var oCompContainer = new sap.ui.core.ComponentContainer({
+                name: "home"
+            });
+
+            oCompContainer.placeAt("content");
+        </script>
+    </head>
+    <body id="UIBody">
+        <div id="content"></div>
+    </body>
+</html>

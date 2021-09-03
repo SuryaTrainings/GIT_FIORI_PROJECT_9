@@ -1,0 +1,44 @@
+<mvc:View xmlns:mvc = 'sap.ui.core.mvc'
+          xmlns = 'sap.m'
+          xmlns:core = "sap.ui.core"
+          controllerName="home.controller.View1">
+          <Page title=" Cars overview list">
+            <headerContent>              
+                <Button icon="sap-icon://action" press="onPress"></Button>
+            </headerContent>
+            <content>
+            <SearchField id="idSF" search="onSearch"></SearchField>  
+            <List id="idList" 
+                  mode="SingleSelectMaster" delete="onDelete"  
+                  selectionChange="onSelectionChange"
+            items="{
+                
+                path: '/cars',
+                sorter: {
+                    path: 'Car'
+                }}">
+                <headerToolbar>
+                    <Toolbar>
+                        <ToolbarSpacer />
+                        <Button  text="Delete Item" icon="sap-icon://delete" press = "onDeleteItems"></Button>
+                    </Toolbar>
+                </headerToolbar>
+            <items>
+                <ObjectListItem   intro="{model}" title="{Car}"
+                                icon="{image}" number="{seater}" numberUnit="{price}"
+
+                ></ObjectListItem>
+            </items>
+            </List>
+            </content>
+
+
+            <footer>
+                <Toolbar>
+                    <ToolbarSpacer />
+                    <Button text="Accept" type="Accept"></Button>
+                    <Button text="Reject" type="Reject"></Button>
+                </Toolbar>
+            </footer>
+         </Page>
+</mvc:View>            

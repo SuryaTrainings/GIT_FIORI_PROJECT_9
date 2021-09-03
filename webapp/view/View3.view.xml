@@ -1,0 +1,25 @@
+<mvc:View xmlns:mvc = 'sap.ui.core.mvc'
+          xmlns = 'sap.m'
+          xmlns:f = "sap.f"
+          controllerName="home.controller.View3">          
+          <Page title=" Detail Page / View 3"> 
+          <!-- showNavButton="true" navButtonPress="onPress"> -->
+            <headerContent>
+            </headerContent>
+
+            <content>
+            
+                <Text text="{Car}"></Text>
+                <Text text="{Car}"></Text>
+                <Text text="{Car}"></Text>
+                <Text text="{Car}"></Text>
+                <Text text="{Car}"></Text>
+                <Text text="{Car}"></Text>
+                <Text text="{Car}"></Text>
+                <Text text="{Car}"></Text>
+                <Text text="{Car}"></Text>
+                <Text text="{Car}"></Text>
+                
+              </content>
+            </Page>            
+</mvc:View>

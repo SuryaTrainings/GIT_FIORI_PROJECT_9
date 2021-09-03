@@ -1,0 +1,47 @@
+<mvc:View xmlns:mvc = 'sap.ui.core.mvc'
+          xmlns = 'sap.m'
+          xmlns:f = "sap.f"
+          controllerName="home.controller.View2">          
+          <Page title=" Detail Page / View 2"> 
+          <!-- showNavButton="true" navButtonPress="onPress"> -->
+            <headerContent>
+            </headerContent>
+
+            <content>  
+                <!-- <List >              
+                    <items>
+                        <f:GridListItem selected="true">
+                            <f:content>
+                                <Text text="Maruthi Cars"></Text>
+                            </f:content>
+                        </f:GridListItem>
+                        
+                        <f:GridListItem >
+                            <f:content>
+                                <Text text="KIA Cars"></Text>    
+                            </f:content>
+                        </f:GridListItem>
+
+                        <f:GridListItem>
+                            <f:content>
+                                <Text text="SKODA Cars"></Text>    
+                            </f:content>
+                        </f:GridListItem>
+                        
+                        <f:GridListItem  >
+                            <f:content>
+                                <Text text="BMW Cars"></Text>    
+                            </f:content>
+                        </f:GridListItem>
+                        
+                        <f:GridListItem  >
+                            <f:content>
+                                <Text text="VW Cars"></Text>    
+                            </f:content>
+                        </f:GridListItem>
+                    </items> -->
+                <!-- </List> -->
+                <Image src="https://i.pinimg.com/originals/21/36/d8/2136d8d0e80aad580f170736f5e469ee.png" width="90%" height="90%"></Image>
+            </content>
+            </Page>
+</mvc:View>            

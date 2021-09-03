@@ -1,0 +1,124 @@
+{   "cars" : [
+        {
+            "Car": "Alto",
+            "color": "grey",
+            "model": "Basic",
+            "seater": "4",
+            "price": "3L",
+            "currency": "INR",
+            "category": "hatchback",
+            "image": "https://imgd.aeplcdn.com/0x0/n/6gouesa_1463328.jpg"
+        },
+        {
+            "Car": "Breeza",
+            "color": "white",
+            "model": "VXI",
+            "seater": "5",
+            "price": "9L",
+            "currency": "INR",
+            "category": "SUV",
+            "image": "https://akm-img-a-in.tosshub.com/businesstoday/images/story/201901/vitara_brezza_660x450_011119045841.jpg"
+        },
+        {
+            "Car": "BMW",
+            "color": "Blue",
+            "model": "VD",
+            "seater": "5",
+            "price": "33L",
+            "currency": "INR",
+            "category": "Sedan",
+            "image": "https://stimg.cardekho.com/images/carexteriorimages/630x420/BMW/X1/7625/1583398555726/front-left-side-47.jpg"
+        },
+        {
+            "Car": "Duster",
+            "color": "grey",
+            "model": "Basic",
+            "seater": "4",
+            "price": "3L",
+            "currency": "INR",
+            "category": "hatchback",
+            "image": "https://cdni.autocarindia.com/Utils/ImageResizer.ashx?n=http%3A%2F%2Fcms.haymarketindia.net%2Fmodel%2Fuploads%2Fmodelimages%2Fdustermodelimage.jpg"
+        },
+        {
+            "Car": "Honda",
+            "color": "white",
+            "model": "VXI",
+            "seater": "5",
+            "price": "9L",
+            "currency": "INR",
+            "category": "SUV",
+            "image": "https://www.buycarsonline.in/Honda/HondaImg/Brio%20Rallye%20Red.jpg"
+        },
+        {
+            "Car": "Toyota",
+            "color": "Blue",
+            "model": "VD",
+            "seater": "5",
+            "price": "33L",
+            "currency": "INR",
+            "category": "Sedan",
+            "image": "https://www.buycarsonline.in/Toyota/ToyotaImg/Toyota%20Cross%201.jpg"
+        },
+        {
+            "Car": "FIAT",
+            "color": "grey",
+            "model": "Basic",
+            "seater": "4",
+            "price": "3L",
+            "currency": "INR",
+            "category": "hatchback",
+            "image": "https://images.cardekho.com/images/carNewsimages/carnews/Fiat%20Abarth/Fiat-Abarth-595-Competizione-03.jpg"
+        },
+        {
+            "Car": "ISUZU",
+            "color": "white",
+            "model": "VXI",
+            "seater": "5",
+            "price": "9L",
+            "currency": "INR",
+            "category": "SUV",
+            "image": "https://images10.gaadicdn.com/usedcar_image/320x240/usedcar_whatsappimage2021_04_08at7_28971626938872_1626938888.jpeg"
+        },
+        {
+            "Car": "Jeep",
+            "color": "Blue",
+            "model": "VD",
+            "seater": "5",
+            "price": "33L",
+            "currency": "INR",
+            "category": "Sedan",
+            "image": "https://www.buycarsonline.in/Jeep/Grand-Cherokee/Jeep_cherokee_.jpg"
+        },
+        {
+            "Car": "KIA",
+            "color": "grey",
+            "model": "Basic",
+            "seater": "4",
+            "price": "3L",
+            "currency": "INR",
+            "category": "hatchback",
+            "image": "https://www.buycarsonline.in/KIA/Seltos/ezgif.com-webp-to-jpg%20(23).jpg"
+        },
+        {
+            "Car": "Mahindra",
+            "color": "white",
+            "model": "VXI",
+            "seater": "5",
+            "price": "9L",
+            "currency": "INR",
+            "category": "SUV",
+            "image": "https://www.buycarsonline.in/Mahindra/Bolero/Mahindra%20Bolero.jpg"
+        },
+        {
+            "Car": "Hyundai",
+            "color": "Blue",
+            "model": "VD",
+            "seater": "5",
+            "price": "33L",
+            "currency": "INR",
+            "category": "Sedan",
+            "image": "https://www.buycarsonline.in/Hyundai/HyundaiImg/Hyundai%20Elite%20i20%20marina-blue.jpg"
+        }
+    ]
+
+    }

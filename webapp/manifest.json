@@ -1,0 +1,93 @@
+{
+    "_version": "1.32.0",
+    "sap.app": {
+        "id": "home",
+        "description": "{{APP_DESCRIPTION}}",
+        "applicationVersion": {
+            "version": "1.0.0"
+        },
+        "type": "application",
+        "title":"{{APP_TITLE}}",
+        "i18n": "i18n/i18n.properties"
+    },    "sap.ui": {
+        "technology": "UI5",
+        "icons": {
+            "icon": "sap-icon://home"
+        },
+        "deviceTypes":{
+            "desktop": true,
+            "phone": true,
+            "tablet": true
+        }
+    },
+    "sap.ui5": {
+        "dependencies": {
+            "minUI5Version": "1.87.0",
+            "libs": {
+                "sap.ui.core": {},
+                "sap.m":{},
+                "sap.ui.layout": {},
+                "sap.ui.table":{}
+            }
+        },
+
+        "library": {
+            "css" :""
+        },
+
+        "contentDensities": {
+            "compact": true,
+            "cozy": true
+        },
+
+        "models": {
+            "i18n": {
+                "type" : "sap.ui.model.resource.ResourceModel",
+                "uri"  : "i18n/i18n.properties"
+            },
+            "":{
+                "type":"sap.ui.model.json.JSONModel",
+                "uri":"model/mockdata/cars.json"
+            }
+        },
+
+        "rootView":{
+            "viewName": "home.view.App",
+            "id": "idAppCon",
+            "type": "XML"
+        },
+
+        "routing": {
+            "config":{
+                "viewPath": "home.view",
+                "viewType": "XML",
+                "controlId": "appCon",
+                "clearControlAggregation": true
+            },
+            "routes":[{
+                "name": "first",
+                "target": ["page1", "page2"],
+                "pattern": ""
+            },
+            {
+                "name": "second",
+                "target": ["page1", "page3"],
+                "pattern": "car/{id}"
+            }
+        ],
+            "targets": {
+                "page1": { "viewName":  "View1",
+                    "controlAggregation": "masterPages" 
+                },
+                "page2": { "viewName":  "View2",
+                    "controlAggregation": "detailPages" 
+                },
+                "page3": { "viewName":  "View3",
+                    "controlAggregation": "detailPages" 
+                }
+            }
+        }
+    }
+
+
+}
